@@ -31,11 +31,11 @@ export const commentConfig: CommentConfig = {
 
   //giscus评论系统配置（还未测试）
   giscus: {
-    repo: "CuteLeaf/Firefly", // 设置 Giscus 评论系统仓库
-    repoId: "R_kgD2gfdFGd", // 设置 Giscus 评论系统仓库ID
+    repo: "DHJComical/dhjcomical.github.io", // 设置 Giscus 评论系统仓库
+    repoId: "R_kgDOQfPf8g", // 设置 Giscus 评论系统仓库ID
     category: "General", // 设置 Giscus 评论系统分类
-    categoryId: "DIC_kwDOKy9HOc4CegmW", // 设置 Giscus 评论系统分类ID
-    mapping: "title", // 设置 Giscus 评论系统映射方式
+    categoryId: "DIC_kwDOQfPf8s4CzNEN", // 设置 Giscus 评论系统分类ID
+    mapping: "pathname", // 设置 Giscus 评论系统映射方式
     strict: "0", // 设置 Giscus 评论系统严格模式
     reactionsEnabled: "1", // 设置 Giscus 评论系统反应功能
     emitMetadata: "1", // 设置 Giscus 评论系统元数据
