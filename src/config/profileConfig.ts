@@ -15,10 +15,10 @@ export const profileConfig: ProfileConfig = {
 			icon: "fa6-brands:github",
 			url: "https://github.com/DHJComical",
 		},
-        {
-            name: "Email",
-            icon: "fa6-solid:envelope",
-            url: "mailto:dhjcomical@163.com",
-        },
+		{
+			name: "Email",
+			icon: "fa6-solid:envelope",
+			url: "mailto:dhjcomical@163.com",
+		},
 	],
 };
