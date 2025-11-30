@@ -9,8 +9,7 @@ export const siteConfig: SiteConfig = {
 	title: "DHJComical",
 	subtitle: "Site",
 	site_url: "https://dhjcomical.github.io",
-	description:
-		"一个简单的博客网站，使用Firefly模板",
+	description: "一个简单的博客网站，使用Firefly模板",
 	keywords: [
 		"Firefly",
 		"Fuwari",
