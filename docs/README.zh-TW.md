@@ -1,5 +1,5 @@
 
-<img src="./images/1131.png" width = "405" height = "511" alt="NapCat" align=right />
+<img src="./images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
 
 <div align="center">
 
@@ -8,7 +8,8 @@
 > 
 > ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.3-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.5-orange)
+![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
 </div>
 
 
@@ -19,7 +20,7 @@
 [**🍀我的部落格**](https://blog.cuteleaf.cn) 
 
 📖 README：
-**[简体中文](../README.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[繁體中文](README.zh-TW.md)** | **[Русский](README.ru.md)**
+**[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)**
 
 ⚡ 靜態站點生成: 基於Astro的超快載入速度和SEO優化
 
@@ -77,6 +78,7 @@
 ### 內容增強
 - [x] **圖片燈箱** - Fancybox 圖片預覽功能
 - [x] **浮動目錄** - 動態顯示文章目錄，支援錨點跳轉，在側邊欄目錄隱藏後顯示
+- [x] **信箱保護** - 讓自動化爬蟲程式無法直接爬取信箱地址，避免垃圾郵件騷擾
 - [x] **側邊欄目錄** - 動態顯示文章目錄，支援錨點跳轉
 - [x] **增強程式碼區塊** - 基於 Expressive Code，支援程式碼摺疊、行號、語言標識
 - [x] **數學公式支援** - KaTeX 渲染引擎，支援行內和區塊級公式
@@ -234,7 +236,13 @@ lang: zh-CN      # 僅當文章語言與 `siteConfig.ts` 中的網站語言不�
 - 使用了 [MetingJS](https://github.com/metowolf/MetingJS) 和 [APlayer](https://github.com/MoePlayer/APlayer) 音樂播放器
 - 使用了b站up [公公的日常](https://space.bilibili.com/3546750017080050) 提供的Q版 `流螢` 看板娘切片資料模型
 - 圖示來自 [Iconify](https://iconify.design/)
-- 流螢部分相關圖片素材版權歸遊戲 [《崩壞：星穹鐵道》](https://sr.mihoyo.com/) 開發商 [米哈遊](https://www.mihoyo.com/) 所有。
+- 流螢部分相關圖片素材版權歸遊戲 [《崩壞：星穹鐵道》](https://sr.mihoyo.com/) 開發商 [米哈遊](https://www.mihoyo.com/) 所有
+
+## 📝 許可協議
+
+本項目遵循 [MIT license](https://mit-license.org/) 開源協議，詳細查看 [LICENSE](./LICENSE) 文件，
+
+最初 Fork 自 [saicaca/fuwari](https://github.com/saicaca/fuwari)，感謝原作者的貢獻，原項目採用 [MIT license](https://mit-license.org/)。
 
 ## 🍀 貢獻者
 

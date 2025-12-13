@@ -1,5 +1,5 @@
 
-<img src="./docs/images/1131.png" width = "405" height = "511" alt="NapCat" align=right />
+<img src="./docs/images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
 
 <div align="center">
 
@@ -8,7 +8,8 @@
 > 
 > ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.3-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.5-orange)
+![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
 </div>
 
 
@@ -19,7 +20,7 @@
 [**🍀My Blog**](https://blog.cuteleaf.cn)
 
 📖 README:
-**[简体中文](README.md)** | **[English](README.en.md)** | **[日本語](docs/README.ja.md)** | **[繁體中文](docs/README.zh-TW.md)** | **[Русский](docs/README.ru.md)** 
+**[简体中文](README.md)** | **[繁體中文](docs/README.zh-TW.md)** | **[English](README.en.md)** | **[日本語](docs/README.ja.md)** | **[Русский](docs/README.ru.md)** 
 
 ⚡ Static Site Generation: Ultra-fast loading speed and SEO optimization based on Astro
 
@@ -77,6 +78,7 @@
 ### Content Enhancement
 - [x] **Image Lightbox** - Fancybox image preview functionality
 - [x] **Floating TOC** - Dynamically displays article table of contents, supports anchor jumping, shown when sidebar TOC is hidden
+- [x] **Email Protection** - Prevent automated crawlers from directly scraping email addresses to avoid spam
 - [x] **Sidebar TOC** - Dynamically displays article table of contents, supports anchor jumping
 - [x] **Enhanced Code Blocks** - Based on Expressive Code, supports code folding, line numbers, language identification
 - [x] **Math Formula Support** - KaTeX rendering engine, supports inline and block formulas
@@ -228,13 +230,17 @@ All commands need to be executed in the project root directory:
 ## 🙏 Acknowledgments
 
 - Special thanks to [saicaca](https://github.com/saicaca) for developing the [Fuwari](https://github.com/saicaca/fuwari) template, which Firefly is based on
-- Referenced blogger [Kasuka](https://kasuha.com)'s [Bangumi Collection Display Page Solution](https://kasuha.com/posts/fuwari-enhance-ep2/)
+- Referenced blogger [Kasuka](https://kasuha.com)'s [Bangumi Collection Display](https://kasuha.com/posts/fuwari-enhance-ep2/) and [Email Protection/Image Title](https://kasuha.com/posts/fuwari-enhance-ep1/) solutions
 - Referenced [Mizuki](https://github.com/matsuzaka-yuki/Mizuki)'s banner title, multi-level menu navbar, sakura effect, KaTeX, and Fancybox solutions
 - Built with [Astro](https://astro.build) and [Tailwind CSS](https://tailwindcss.com)
 - Uses [MetingJS](https://github.com/metowolf/MetingJS) and [APlayer](https://github.com/MoePlayer/APlayer) music player
 - Uses Chibi `Firefly` mascot spine model provided by Bilibili creator [公公的日常](https://space.bilibili.com/3546750017080050)
 - Icons from [Iconify](https://iconify.design/)
 - Firefly-related image assets are copyrighted by [miHoYo](https://www.mihoyo.com/), the developer of ["Honkai: Star Rail"](https://sr.mihoyo.com/).
+
+## 📝 License
+
+This project is licensed under the [MIT license](https://mit-license.org/), see the [LICENSE](./LICENSE) file for details. It was originally forked from [saicaca/fuwari](https://github.com/saicaca/fuwari). Thanks to the original author for their contribution. The original project is also licensed under the [MIT license](https://mit-license.org/).
 
 ## 🍀 Contributors
 

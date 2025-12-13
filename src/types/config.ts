@@ -47,6 +47,7 @@ export type SiteConfig = {
 		alt?: string; // 图片alt文本
 	};
 	navbarTitle?: string; // 导航栏标题，如果不设置则使用 title
+	navbarWidthFull?: boolean; // 导航栏是否占满屏幕宽度
 	showLastModified: boolean; // 控制"上次编辑"卡片显示的开关
 
 	// 页面开关配置
@@ -133,6 +134,7 @@ export type ProfileConfig = {
 		name: string;
 		url: string;
 		icon: string;
+		showName?: boolean;
 	}[];
 };
 
@@ -188,7 +190,6 @@ export type CommentConfig = {
 		reactionsEnabled: string;
 		emitMetadata: string;
 		inputPosition: string;
-		theme: string;
 		lang: string;
 		loading: string;
 	};
@@ -333,7 +334,7 @@ export type WidgetComponentConfig = {
 		hidden?: ("mobile" | "tablet" | "desktop")[]; // 在指定设备上隐藏
 		collapseThreshold?: number; // 折叠阈值
 	};
-	customProps?: Record<string, any>; // 自定义属性，用于扩展组件功能
+	customProps?: Record<string, unknown>; // 自定义属性，用于扩展组件功能
 };
 
 export type SidebarLayoutConfig = {
