@@ -1,5 +1,5 @@
 
-<img src="./images/1131.png" width = "405" height = "511" alt="NapCat" align=right />
+<img src="./images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
 
 <div align="center">
 
@@ -8,7 +8,8 @@
 > 
 > ![Node.js >= 20](https://img.shields.io/badge/node.js-%3E%3D20-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.3-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.5-orange)
+![GitHub License](https://img.shields.io/github/license/CuteLeaf/Firefly)
 </div>
 
 
@@ -19,7 +20,7 @@
 [**🍀私のブログ**](https://blog.cuteleaf.cn)
 
 📖 README：
-**[简体中文](../README.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[繁體中文](README.zh-TW.md)** | **[Русский](README.ru.md)** 
+**[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)** 
 
 ⚡ 静的サイト生成：Astroベースの超高速読み込み速度とSEO最適化
 
@@ -77,6 +78,7 @@
 ### コンテンツ拡張
 - [x] **画像ライトボックス** - Fancybox画像プレビュー機能
 - [x] **フローティング目次** - 記事の目次を動的に表示、アンカージャンプをサポート、サイドバー目次非表示時に表示
+- [x] **メールアドレス保護** - 自動クローラーによるメールアドレスの収集を防ぎ、スパムメールを回避
 - [x] **サイドバー目次** - 記事の目次を動的に表示、アンカージャンプをサポート
 - [x] **強化されたコードブロック** - Expressive Codeベース、コード折りたたみ、行番号、言語識別をサポート
 - [x] **数式サポート** - KaTeXレンダリングエンジン、インラインとブロック数式をサポート
@@ -228,13 +230,17 @@ lang: zh-CN      # 記事の言語が`siteConfig.ts`のサイト言語と異な�
 ## 🙏 謝辞
 
 - [Fuwari](https://github.com/saicaca/fuwari)テンプレートを開発した[saicaca](https://github.com/saicaca)に深く感謝します。Fireflyはこのテンプレートをベースに開発されています
-- ブロガー[霞葉](https://kasuha.com)の[Bangumiコレクション表示ページソリューション](https://kasuha.com/posts/fuwari-enhance-ep2/)を参考にしました
+- ブロガー[霞葉](https://kasuha.com)の[Bangumiコレクション表示](https://kasuha.com/posts/fuwari-enhance-ep2/)と[メール保護・画像タイトル](https://kasuha.com/posts/fuwari-enhance-ep1/)案を参考にしました
 - [Mizuki](https://github.com/matsuzaka-yuki/Mizuki)のバナータイトル/多階層メニューナビゲーションバー/桜エフェクト/KaTeX/Fancyboxソリューションを参考にしました
 - [Astro](https://astro.build)と[Tailwind CSS](https://tailwindcss.com)を使用して構築
 - [MetingJS](https://github.com/metowolf/MetingJS)と[APlayer](https://github.com/MoePlayer/APlayer)音楽プレーヤーを使用
 - Bilibili UP主[公公的日常](https://space.bilibili.com/3546750017080050)が提供するQ版`蛍`マスコットスライスデータモデルを使用
 - アイコンは[Iconify](https://iconify.design/)から
 - 蛍関連の画像素材の著作権はゲーム[「崩壊：スターレイル」](https://sr.mihoyo.com/)の開発元[miHoYo](https://www.mihoyo.com/)に帰属します。
+
+## 📝 ライセンス
+
+本プロジェクトは [MIT license](https://mit-license.org/) の下で公開されています。詳細は [LICENSE](../LICENSE) ファイルをご覧ください。[saicaca/fuwari](https://github.com/saicaca/fuwari) からフォークされました。原作者の貢献に感謝します。元のプロジェクトも [MIT license](https://mit-license.org/) を採用しています。
 
 ## 🍀 貢献者
 
