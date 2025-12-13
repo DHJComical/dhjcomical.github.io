@@ -1,1 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel><title>DHJComical - Site</title><description>一个简单的博客网站，使用Firefly模板</description><link>https://dhjcomical.github.io/</link><language>zh_CN</language></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>DHJComical - Site</title><description>一个简单的博客网站，使用Firefly模板</description><link>https://dhjcomical.github.io/</link><language>zh_CN</language><item><title>IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题</title><link>https://dhjcomical.github.io/posts/vintageime/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/vintageime/</guid><description>专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。</description><pubDate>Wed, 20 Mar 2024 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/IngameIME-1.12.2&quot;}&lt;/p&gt;
+&lt;h2&gt;为什么需要这个模组？&lt;/h2&gt;
+&lt;p&gt;对于还在坚守 &lt;strong&gt;Minecraft 1.12.2&lt;/strong&gt; 版本的玩家来说，中文输入一直是一个痛点，尤其是在&lt;strong&gt;全屏模式&lt;/strong&gt;下：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;选词框消失&lt;/strong&gt;：打字时看不到候选词，只能“盲打”。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;被迫窗口化&lt;/strong&gt;：为了聊天不得不退出全屏，沉浸感全无。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;&lt;strong&gt;IngameIME&lt;/strong&gt; 就是为了解决这些问题而生的。它通过 Mixin 游戏渲染，将输入法的候选词列表直接&lt;strong&gt;渲染在游戏画面内部&lt;/strong&gt;，就像原生的 GUI 一样顺滑。 甚至支持 SmoothFont 这类修改文字渲染的Mod&lt;/p&gt;
+&lt;p&gt;:::tip
+本项目是基于旧版开源代码的维护与优化版本，专注于 &lt;strong&gt;1.12.2&lt;/strong&gt; 版本的稳定性和兼容性修复。
+:::&lt;/p&gt;
+&lt;h2&gt;核心功能&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;📺 游戏内渲染&lt;/strong&gt;：候选词窗口不再浮在游戏窗口之外，而是作为游戏 UI 的一部分显示。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;🚀 全屏兼容&lt;/strong&gt;：完美支持全屏模式，不再需要盲目选词。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;⌨️ 多输入法支持&lt;/strong&gt;：兼容微软拼音、搜狗输入法等主流 IME。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;安装指南&lt;/h2&gt;
+&lt;h3&gt;前置要求&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Minecraft 版本&lt;/strong&gt;：1.12.2 、1.7.10&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mod Loader&lt;/strong&gt;：Minecraft Forge / Cleanroom&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Mod&lt;/strong&gt;：MixinBooter（1.12.2）、UniMixin（1.7.10）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;相关链接&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/DHJComical/IngameIME-1.12.2&quot;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.curseforge.com/minecraft/mc-mods/ingameime-vintage&quot;&gt;CurseForge&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://modrinth.com/mod/ingameime-vintage&quot;&gt;Modrinth&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mcmod.cn/class/20138.html&quot;&gt;MCMOD百科&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;:::important[注意事项]
+如果你安装了其他涉及输入法优化的模组（如 InputMethodBlocker 等），建议移除，以避免冲突。IngameIME 已经包含了必要的输入修复功能。
+:::&lt;/p&gt;
+</content:encoded></item></channel></rss>
