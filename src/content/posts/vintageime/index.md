@@ -1,6 +1,6 @@
 ---
 title: IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题
-published: 2024-03-20
+published: 2025-12-13
 description: "专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。"
 image: ""
 tags: [Minecraft, Mod , 1.12.2, 1.7.10]
