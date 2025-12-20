@@ -49,7 +49,7 @@ lang: zh
 
 ## 如何使用
 
-1.  访问 [**在线解锁工具**](https://dhjcomical.github.io/um-react-mirror/)（也就是本站部署的版本）。
+1.  访问 <a href="https://dhjcomical.github.io/um-react-mirror/" target="_blank"><strong>在线解锁工具</strong></a>（也就是本站部署的版本）。
 2.  将你的加密音乐文件**拖拽**到网页中间的区域。
 3.  等待解密完成。
 4.  点击下载转换后的文件。
