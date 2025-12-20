@@ -79,6 +79,12 @@ export const siteConfig: SiteConfig = {
 		defaultMode: "list",
 		// 是否允许用户切换布局
 		allowSwitch: true,
+
+		// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
+		grid: {
+			// 是否开启瀑布流布局，同时有封面图和无封面图的混合文章推荐开启
+			masonry: true,
+		},
 	},
 
 	// 分页配置
@@ -88,7 +94,7 @@ export const siteConfig: SiteConfig = {
 	},
 
 	backgroundWallpaper: {
-		// 壁纸模式："banner" 横幅壁纸，"overlay" 全屏壁纸，"none" 纯色背景无壁纸
+		// 壁纸模式："banner" 横幅壁纸，"overlay" 全屏透明，"none" 纯色背景无壁纸
 		mode: "banner",
 		// 是否允许用户通过导航栏切换壁纸模式，设为false可提升性能（只渲染当前模式）
 		switchable: true,
