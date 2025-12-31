@@ -49,6 +49,7 @@ export type SiteConfig = {
 	navbarTitle?: string; // 导航栏标题，如果不设置则使用 title
 	navbarWidthFull?: boolean; // 导航栏是否占满屏幕宽度
 	showLastModified: boolean; // 控制"上次编辑"卡片显示的开关
+	outdatedThreshold?: number; // 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
 
 	// 页面开关配置
 	pages: {
@@ -65,6 +66,8 @@ export type SiteConfig = {
 			// 网格布局配置，仅在 defaultMode 为 "grid" 或允许切换布局时生效
 			// 是否开启瀑布流布局
 			masonry: boolean;
+			// 网格模式下封面位置："top" 顶部，"right" 右侧
+			coverPosition: "top" | "right";
 		};
 	};
 
