@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>DHJComical - Site</title><description>一个简单的博客网站，使用Firefly模板</description><link>https://dhjcomical.github.io/</link><language>zh_CN</language><item><title>Unlock Music - 浏览器端的音乐加密格式解锁工具</title><link>https://dhjcomical.github.io/posts/unlock-music/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/unlock-music/</guid><description>基于 React 重构的音乐解锁工具，支持 QMC、NCM、KWM 等主流加密格式。纯前端解密，保护隐私，无需上传文件。</description><pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/um-react-mirror&quot;}&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>DHJComical</title><description>Site</description><link>https://dhjcomical.github.io/</link><language>zh_CN</language><templateTheme>Firefly</templateTheme><templateThemeVersion>5.12.31</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2025年12月31日 23:28:06</lastBuildDate><item><title>Unlock Music - 浏览器端的音乐加密格式解锁工具</title><link>https://dhjcomical.github.io/posts/unlock-music/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/unlock-music/</guid><description>基于 React 重构的音乐解锁工具，支持 QMC、NCM、KWM 等主流加密格式。纯前端解密，保护隐私，无需上传文件。</description><pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/um-react-mirror&quot;}&lt;/p&gt;
 &lt;h2&gt;项目介绍&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Unlock Music (React)&lt;/strong&gt; 是一个在浏览器中运行的加密音乐文件解锁工具。&lt;/p&gt;
 &lt;p&gt;很多时候，我们在各大音乐平台下载的音乐文件是加密格式（如 &lt;code&gt;.ncm&lt;/code&gt;, &lt;code&gt;.qmc&lt;/code&gt;, &lt;code&gt;.mflac&lt;/code&gt; 等），导致无法在其他播放器或设备上播放。这个工具的初衷就是为了方便用户将自己已购的音乐转换为通用的 MP3 或 FLAC 格式。&lt;/p&gt;
@@ -55,7 +55,7 @@
 &lt;blockquote&gt;
 &lt;p&gt;&lt;strong&gt;免责声明&lt;/strong&gt;：本项目仅供技术研究和学习使用。请支持正版音乐，修改、再分发时请遵循项目的授权协议。&lt;/p&gt;
 &lt;/blockquote&gt;
-</content:encoded></item><item><title>IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题</title><link>https://dhjcomical.github.io/posts/vintageime/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/vintageime/</guid><description>专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。</description><pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/IngameIME-1.12.2&quot;}&lt;/p&gt;
+</content:encoded><author>DHJComical</author></item><item><title>IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题</title><link>https://dhjcomical.github.io/posts/vintageime/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/vintageime/</guid><description>专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。</description><pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/IngameIME-1.12.2&quot;}&lt;/p&gt;
 &lt;h2&gt;为什么需要这个模组？&lt;/h2&gt;
 &lt;p&gt;对于还在坚守 &lt;strong&gt;Minecraft 1.12.2&lt;/strong&gt; 版本的玩家来说，中文输入一直是一个痛点，尤其是在&lt;strong&gt;全屏模式&lt;/strong&gt;下：&lt;/p&gt;
 &lt;ol&gt;
@@ -89,4 +89,176 @@
 &lt;p&gt;:::important[注意事项]
 如果你安装了其他涉及输入法优化的模组（如 InputMethodBlocker 等），建议移除，以避免冲突。IngameIME 已经包含了必要的输入修复功能。
 :::&lt;/p&gt;
-</content:encoded></item></channel></rss>
+</content:encoded><author>DHJComical</author></item><item><title>KaTeX 数学公式示例</title><link>https://dhjcomical.github.io/posts/katex-math-example/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/katex-math-example/</guid><description>展示 Firefly 主题对 KaTeX 数学公式的支持，包括行内公式、块级公式和复杂数学符号。</description><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;本文展示了 &lt;a href=&quot;https://github.com/CuteLeaf/Firefly&quot;&gt;Firefly&lt;/a&gt; 主题对 KaTeX 数学公式的渲染支持。&lt;/p&gt;
+&lt;h2&gt;行内公式 (Inline)&lt;/h2&gt;
+&lt;p&gt;行内公式使用单个 &lt;code&gt;$&lt;/code&gt; 符号包裹。&lt;/p&gt;
+&lt;p&gt;例如：欧拉公式 $e^{i\pi} + 1 = 0$ 是数学中最优美的公式之一。&lt;/p&gt;
+&lt;p&gt;质能方程 $E = mc^2$ 也是家喻户晓。&lt;/p&gt;
+&lt;h2&gt;块级公式 (Block)&lt;/h2&gt;
+&lt;p&gt;块级公式使用两个 &lt;code&gt;$$&lt;/code&gt; 符号包裹，会居中显示。&lt;/p&gt;
+&lt;p&gt;$$
+\int_{-\infty}^{\infty} e^{-x^2} dx = \sqrt{\pi}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+x = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}
+$$&lt;/p&gt;
+&lt;h2&gt;复杂示例&lt;/h2&gt;
+&lt;h3&gt;矩阵 (Matrices)&lt;/h3&gt;
+&lt;p&gt;$$
+\begin{pmatrix}
+a &amp;amp; b \
+c &amp;amp; d
+\end{pmatrix}
+\begin{pmatrix}
+\alpha &amp;amp; \beta \
+\gamma &amp;amp; \delta
+\end{pmatrix} =
+\begin{pmatrix}
+a\alpha + b\gamma &amp;amp; a\beta + b\delta \
+c\alpha + d\gamma &amp;amp; c\beta + d\delta
+\end{pmatrix}
+$$&lt;/p&gt;
+&lt;h3&gt;极限与求和 (Limits and Sums)&lt;/h3&gt;
+&lt;p&gt;$$
+\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+$$&lt;/p&gt;
+&lt;p&gt;$$
+\lim_{x \to 0} \frac{\sin x}{x} = 1
+$$&lt;/p&gt;
+&lt;h3&gt;麦克斯韦方程组 (Maxwell&apos;s Equations)&lt;/h3&gt;
+&lt;p&gt;$$
+\begin{aligned}
+\nabla \cdot \mathbf{E} &amp;amp;= \frac{\rho}{\varepsilon_0} \
+\nabla \cdot \mathbf{B} &amp;amp;= 0 \
+\nabla \times \mathbf{E} &amp;amp;= -\frac{\partial \mathbf{B}}{\partial t} \
+\nabla \times \mathbf{B} &amp;amp;= \mu_0\mathbf{J} + \mu_0\varepsilon_0\frac{\partial \mathbf{E}}{\partial t}
+\end{aligned}
+$$&lt;/p&gt;
+&lt;h3&gt;化学方程式 (Chemical Equations)&lt;/h3&gt;
+&lt;p&gt;$$
+\ce{CH4 + 2O2 -&amp;gt; CO2 + 2H2O}
+$$&lt;/p&gt;
+&lt;h2&gt;更多符号&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;符号&lt;/th&gt;
+&lt;th&gt;代码&lt;/th&gt;
+&lt;th&gt;渲染结果&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Alpha&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\alpha&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\alpha$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Beta&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\beta&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\beta$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Gamma&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\Gamma&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\Gamma$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Pi&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\pi&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\pi$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Infinity&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\infty&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\infty$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Right Arrow&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\rightarrow&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\rightarrow$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Partial&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;\partial&lt;/code&gt;&lt;/td&gt;
+&lt;td&gt;$\partial$&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;更多 KaTeX 语法请参考 &lt;a href=&quot;https://katex.org/docs/supported.html&quot;&gt;KaTeX Supported Functions&lt;/a&gt;。&lt;/p&gt;
+</content:encoded><author>DHJComical</author></item><item><title>MDX 格式文章示例</title><link>https://dhjcomical.github.io/posts/mdx-example/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/mdx-example/</guid><description>这是一个 MDX 格式的示例文章，展示了如何在 Markdown 中使用 JSX。</description><pubDate>Thu, 01 Jan 1970 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;import { Icon } from &apos;astro-icon/components&apos;&lt;/p&gt;
+&lt;p&gt;:::tip
+&lt;a href=&quot;https://github.com/CuteLeaf/Firefly&quot;&gt;Firefly&lt;/a&gt; 支持 &lt;code&gt;MDX&lt;/code&gt; 和 &lt;code&gt;Markdown&lt;/code&gt; 两种类型的文章，你可以在文章中混合使用两种格式，如果没有特别复杂内容和需求，推荐使用 Markdown 格式就够了。
+:::&lt;/p&gt;
+&lt;h2&gt;Markdown 和 MDX 的区别&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown (MD) 是一种轻量级标记语言，允许用户使用纯文本格式编写文档，然后将其转换为格式化的HTML。它因其简洁易用的语法而广受欢迎，特别适合编写文档和博客文章。&lt;/li&gt;
+&lt;li&gt;MDX 是一种扩展了 Markdown 语法的格式，允许在 Markdown 文档中无缝地插入 JSX 代码。通过 MDX，用户可以在文档中嵌入 React 组件，从而实现更丰富的交互性和动态性。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;特性&lt;/th&gt;
+&lt;th&gt;Markdown&lt;/th&gt;
+&lt;th&gt;MDX&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;基础语法&lt;/td&gt;
+&lt;td&gt;支持 (CommonMark)&lt;/td&gt;
+&lt;td&gt;支持 (CommonMark)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;HTML 标签&lt;/td&gt;
+&lt;td&gt;支持&lt;/td&gt;
+&lt;td&gt;支持 (作为 JSX)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;组件导入&lt;/td&gt;
+&lt;td&gt;不支持&lt;/td&gt;
+&lt;td&gt;支持 (import)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;动态数据&lt;/td&gt;
+&lt;td&gt;不支持&lt;/td&gt;
+&lt;td&gt;支持 (JS 表达式)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;样式定制&lt;/td&gt;
+&lt;td&gt;有限 (class/style)&lt;/td&gt;
+&lt;td&gt;灵活 (className/CSS-in-JS)&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h2&gt;使用组件&lt;/h2&gt;
+&lt;p&gt;这是一个图标组件：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;import { Icon } from &apos;astro-icon/components&apos;
+
+&amp;lt;div class=&quot;flex items-center gap-2 my-4&quot;&amp;gt;
+  &amp;lt;Icon name=&quot;fa6-solid:rocket&quot; class=&quot;text-4xl text-red-500&quot; /&amp;gt;
+  &amp;lt;span&amp;gt;火箭发射！&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;div class=&quot;flex items-center gap-2 my-4&quot;&amp;gt;
+&amp;lt;Icon name=&quot;fa6-solid:rocket&quot; class=&quot;text-4xl text-red-500&quot; /&amp;gt;
+&amp;lt;span&amp;gt;火箭发射！&amp;lt;/span&amp;gt;
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;h2&gt;使用 JSX&lt;/h2&gt;
+&lt;p&gt;你也可以直接写 HTML/JSX：&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div className=&quot;p-4 bg-blue-100 dark:bg-blue-900 rounded-lg my-4&quot;&amp;gt;
+  这是一个自定义样式的 div 块，使用了 Tailwind CSS 类。
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&amp;lt;div className=&quot;p-4 bg-blue-100 dark:bg-blue-900 rounded-lg my-4&quot;&amp;gt;
+这是一个自定义样式的 div 块，使用了 Tailwind CSS 类。
+&amp;lt;/div&amp;gt;&lt;/p&gt;
+&lt;h2&gt;简单的变量导出&lt;/h2&gt;
+&lt;pre&gt;&lt;code&gt;export const year = new Date().getFullYear()
+
+今年是 {year} 年。
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;export const year = new Date().getFullYear()&lt;/p&gt;
+&lt;p&gt;今年是 {year} 年。&lt;/p&gt;
+&lt;p&gt;更多信息，请查看 &lt;a href=&quot;https://mdxjs.com/&quot;&gt;MDX 文档&lt;/a&gt;&lt;/p&gt;
+</content:encoded><author>DHJComical</author></item></channel></rss>
