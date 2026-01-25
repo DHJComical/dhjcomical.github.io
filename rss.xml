@@ -1,21 +1,12 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>DHJComical</title><description>Site</description><link>https://dhjcomical.github.io/</link><language>zh_CN</language><templateTheme>Firefly</templateTheme><templateThemeVersion>5.12.31</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2025年12月31日 23:31:09</lastBuildDate><item><title>Unlock Music - 浏览器端的音乐加密格式解锁工具</title><link>https://dhjcomical.github.io/posts/unlock-music/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/unlock-music/</guid><description>基于 React 重构的音乐解锁工具，支持 QMC、NCM、KWM 等主流加密格式。纯前端解密，保护隐私，无需上传文件。</description><pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/um-react-mirror&quot;}&lt;/p&gt;
-&lt;h2&gt;项目介绍&lt;/h2&gt;
-&lt;p&gt;&lt;strong&gt;Unlock Music (React)&lt;/strong&gt; 是一个在浏览器中运行的加密音乐文件解锁工具。&lt;/p&gt;
-&lt;p&gt;很多时候，我们在各大音乐平台下载的音乐文件是加密格式（如 &lt;code&gt;.ncm&lt;/code&gt;, &lt;code&gt;.qmc&lt;/code&gt;, &lt;code&gt;.mflac&lt;/code&gt; 等），导致无法在其他播放器或设备上播放。这个工具的初衷就是为了方便用户将自己已购的音乐转换为通用的 MP3 或 FLAC 格式。&lt;/p&gt;
-&lt;p&gt;本项目是原 &lt;a href=&quot;https://git.um-react.app/um/web&quot;&gt;Unlock Music (Vue)&lt;/a&gt; 项目的 &lt;strong&gt;React 重构版本&lt;/strong&gt;，使用了更现代的技术栈（React + Vite + Rust/Wasm），性能更强，体验更好。&lt;/p&gt;
-&lt;p&gt;:::tip
-本站部署的是该项目的镜像版本，你可以直接访问我的部署地址使用，也可以查看源码自行部署。（GitHub Pages请使用gh-action分支且在Settings里将发布来源设置为Actions）
-:::&lt;/p&gt;
-&lt;h2&gt;核心特性&lt;/h2&gt;
-&lt;ul&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>DHJComical</title><description>Site</description><link>https://dhjcomical.github.io/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.3.8</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年1月25日 08:40:57</lastBuildDate><item><title>Unlock Music - 浏览器端的音乐加密格式解锁工具</title><link>https://dhjcomical.github.io/posts/unlock-music/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/unlock-music/</guid><description>基于 React 重构的音乐解锁工具，支持 QMC、NCM、KWM 等主流加密格式。纯前端解密，保护隐私，无需上传文件。</description><pubDate>Sat, 20 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;a href=&quot;https://github.com/DHJComical/um-react-mirror&quot; target=&quot;_blank&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;DHJComical&lt;/div&gt;&lt;/div&gt;&lt;div&gt;/&lt;/div&gt;&lt;div&gt;um-react-mirror&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Waiting for api.github.com...&lt;/div&gt;&lt;div&gt;&lt;div&gt;00K&lt;/div&gt;&lt;div&gt;0K&lt;/div&gt;&lt;div&gt;0K&lt;/div&gt;&lt;span&gt;Waiting...&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;section&gt;&lt;h2&gt;项目介绍&lt;a href=&quot;#项目介绍&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;Unlock Music (React)&lt;/strong&gt; 是一个在浏览器中运行的加密音乐文件解锁工具。&lt;/p&gt;&lt;p&gt;很多时候，我们在各大音乐平台下载的音乐文件是加密格式（如 &lt;code&gt;.ncm&lt;/code&gt;, &lt;code&gt;.qmc&lt;/code&gt;, &lt;code&gt;.mflac&lt;/code&gt; 等），导致无法在其他播放器或设备上播放。这个工具的初衷就是为了方便用户将自己已购的音乐转换为通用的 MP3 或 FLAC 格式。&lt;/p&gt;&lt;p&gt;本项目是原 &lt;a href=&quot;https://git.um-react.app/um/web&quot;&gt;Unlock Music (Vue)&lt;/a&gt; 项目的 &lt;strong&gt;React 重构版本&lt;/strong&gt;，使用了更现代的技术栈（React + Vite + Rust/Wasm），性能更强，体验更好。&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;本站部署的是该项目的镜像版本，你可以直接访问我的部署地址使用，也可以查看源码自行部署。（GitHub Pages请使用gh-action分支且在Settings里将发布来源设置为Actions）&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;核心特性&lt;a href=&quot;#核心特性&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;🛡️ 隐私安全&lt;/strong&gt;：所有解密过程都在浏览器本地（Web Worker）完成，&lt;strong&gt;不会上传任何文件&lt;/strong&gt;到服务器，确保你的数据安全。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;🚀 性能强大&lt;/strong&gt;：引入了 Rust 编写的解密库 (&lt;code&gt;@unlock-music/crypto&lt;/code&gt;)，配合 WebAssembly 技术，解密速度极快。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;📱 离线可用&lt;/strong&gt;：支持 PWA（渐进式 Web 应用），安装后即使没有网络也能使用。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;📂 批量处理&lt;/strong&gt;：支持拖拽上传，可以一次性解锁大量文件。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;支持的格式&lt;/h2&gt;
-&lt;p&gt;目前支持绝大多数主流平台的加密格式：&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ul&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;支持的格式&lt;a href=&quot;#支持的格式&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;目前支持绝大多数主流平台的加密格式：&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;QQ 音乐&lt;/strong&gt;:
 &lt;ul&gt;
 &lt;li&gt;QMCv1 (&lt;code&gt;.qmc3&lt;/code&gt;, &lt;code&gt;.qmcflac&lt;/code&gt;)&lt;/li&gt;
@@ -27,66 +18,39 @@
 &lt;li&gt;&lt;strong&gt;酷狗音乐&lt;/strong&gt;: &lt;code&gt;.kgm&lt;/code&gt;, &lt;code&gt;.vpr&lt;/code&gt;, &lt;code&gt;.kgg&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;虾米音乐&lt;/strong&gt;: &lt;code&gt;.xm&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;其他&lt;/strong&gt;: 喜马拉雅 (&lt;code&gt;.x2m&lt;/code&gt;), 咪咕 (&lt;code&gt;.mg3d&lt;/code&gt;), 蜻蜓FM (&lt;code&gt;.qta&lt;/code&gt;) 等&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;:::warning
-部分较新的加密格式（如新版 QQ 音乐、酷我、酷狗的高音质文件）需要配合 &lt;strong&gt;密钥数据库&lt;/strong&gt; 使用。你需要自行提取设备密钥并导入到设置中才能解锁。
-:::&lt;/p&gt;
-&lt;h2&gt;如何使用&lt;/h2&gt;
-&lt;ol&gt;
-&lt;li&gt;访问 &amp;lt;a href=&quot;https://dhjcomical.github.io/um-react-mirror/&quot; target=&quot;_blank&quot;&amp;gt;&amp;lt;strong&amp;gt;在线解锁工具&amp;lt;/strong&amp;gt;&amp;lt;/a&amp;gt;（也就是本站部署的版本）。&lt;/li&gt;
+&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Warning&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;部分较新的加密格式（如新版 QQ 音乐、酷我、酷狗的高音质文件）需要配合 &lt;strong&gt;密钥数据库&lt;/strong&gt; 使用。你需要自行提取设备密钥并导入到设置中才能解锁。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;如何使用&lt;a href=&quot;#如何使用&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;访问 &lt;a href=&quot;https://dhjcomical.github.io/um-react-mirror/&quot; target=&quot;_blank&quot;&gt;&lt;strong&gt;在线解锁工具&lt;/strong&gt;&lt;/a&gt;（也就是本站部署的版本）。&lt;/li&gt;
 &lt;li&gt;将你的加密音乐文件&lt;strong&gt;拖拽&lt;/strong&gt;到网页中间的区域。&lt;/li&gt;
 &lt;li&gt;等待解密完成。&lt;/li&gt;
 &lt;li&gt;点击下载转换后的文件。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;h2&gt;技术细节&lt;/h2&gt;
-&lt;p&gt;如果你对技术感兴趣，这个项目也是一个很好的 React 学习案例：&lt;/p&gt;
-&lt;ul&gt;
+&lt;/ol&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;技术细节&lt;a href=&quot;#技术细节&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如果你对技术感兴趣，这个项目也是一个很好的 React 学习案例：&lt;/p&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;架构&lt;/strong&gt;：主线程负责 UI 渲染，&lt;strong&gt;Web Worker&lt;/strong&gt; 负责繁重的解密计算，避免页面卡顿。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;数据传输&lt;/strong&gt;：主线程生成 Blob URL，通过 &lt;code&gt;postMessage&lt;/code&gt; 传递给 Worker，Worker 再通过 &lt;code&gt;fetch&lt;/code&gt; API 获取数据。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;部署&lt;/strong&gt;：本项目无法直接运行在子目录下，需要配置 &lt;code&gt;base&lt;/code&gt; 路径和 &lt;code&gt;HashRouter&lt;/code&gt;（这也是我之前折腾部署遇到的主要坑，现已修复）。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;相关链接&lt;/h2&gt;
-&lt;ul&gt;
+&lt;/ul&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;相关链接&lt;a href=&quot;#相关链接&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;官方仓库&lt;/strong&gt;: &lt;a href=&quot;https://git.um-react.app/um/um-react&quot;&gt;https://git.um-react.app/um/um-react&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Telegram 群组&lt;/strong&gt;: &lt;a href=&quot;https://t.me/unlock_music_chat&quot;&gt;&lt;code&gt;@unlock_music_chat&lt;/code&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;CLI 版本&lt;/strong&gt;: 如果你有成千上万个文件需要处理，建议使用 &lt;a href=&quot;https://git.um-react.app/um/cli&quot;&gt;CLI 版本&lt;/a&gt;。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;hr /&gt;
-&lt;blockquote&gt;
-&lt;p&gt;&lt;strong&gt;免责声明&lt;/strong&gt;：本项目仅供技术研究和学习使用。请支持正版音乐，修改、再分发时请遵循项目的授权协议。&lt;/p&gt;
-&lt;/blockquote&gt;
-</content:encoded><author>DHJComical</author></item><item><title>IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题</title><link>https://dhjcomical.github.io/posts/vintageime/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/vintageime/</guid><description>专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。</description><pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;::github{repo=&quot;DHJComical/IngameIME-1.12.2&quot;}&lt;/p&gt;
-&lt;h2&gt;为什么需要这个模组？&lt;/h2&gt;
-&lt;p&gt;对于还在坚守 &lt;strong&gt;Minecraft 1.12.2&lt;/strong&gt; 版本的玩家来说，中文输入一直是一个痛点，尤其是在&lt;strong&gt;全屏模式&lt;/strong&gt;下：&lt;/p&gt;
-&lt;ol&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;免责声明&lt;/strong&gt;：本项目仅供技术研究和学习使用。请支持正版音乐，修改、再分发时请遵循项目的授权协议。&lt;/p&gt;&lt;/blockquote&gt;&lt;/section&gt;</content:encoded></item><item><title>IngameIME (1.12.2) - 彻底解决 MC 全屏输入法问题</title><link>https://dhjcomical.github.io/posts/vintageime/</link><guid isPermaLink="true">https://dhjcomical.github.io/posts/vintageime/</guid><description>专为 Minecraft 1.12.2 打造的输入法优化模组，支持游戏内渲染选词框，彻底告别全屏下无法打字、选词框闪烁的烦恼。</description><pubDate>Sat, 13 Dec 2025 00:00:00 GMT</pubDate><content:encoded>&lt;a href=&quot;https://github.com/DHJComical/IngameIME-1.12.2&quot; target=&quot;_blank&quot;&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;DHJComical&lt;/div&gt;&lt;/div&gt;&lt;div&gt;/&lt;/div&gt;&lt;div&gt;IngameIME-1.12.2&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;Waiting for api.github.com...&lt;/div&gt;&lt;div&gt;&lt;div&gt;00K&lt;/div&gt;&lt;div&gt;0K&lt;/div&gt;&lt;div&gt;0K&lt;/div&gt;&lt;span&gt;Waiting...&lt;/span&gt;&lt;/div&gt;&lt;/a&gt;
+&lt;section&gt;&lt;h2&gt;为什么需要这个模组？&lt;a href=&quot;#为什么需要这个模组&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;对于还在坚守 &lt;strong&gt;Minecraft 1.12.2&lt;/strong&gt; 版本的玩家来说，中文输入一直是一个痛点，尤其是在&lt;strong&gt;全屏模式&lt;/strong&gt;下：&lt;/p&gt;&lt;ol&gt;
 &lt;li&gt;&lt;strong&gt;选词框消失&lt;/strong&gt;：打字时看不到候选词，只能“盲打”。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;被迫窗口化&lt;/strong&gt;：为了聊天不得不退出全屏，沉浸感全无。&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;&lt;strong&gt;IngameIME&lt;/strong&gt; 就是为了解决这些问题而生的。它通过 Mixin 游戏渲染，将输入法的候选词列表直接&lt;strong&gt;渲染在游戏画面内部&lt;/strong&gt;，就像原生的 GUI 一样顺滑。 甚至支持 SmoothFont 这类修改文字渲染的Mod&lt;/p&gt;
-&lt;p&gt;:::tip
-本项目是基于旧版开源代码的维护与优化版本，专注于 &lt;strong&gt;1.12.2&lt;/strong&gt; 版本的稳定性和兼容性修复。
-:::&lt;/p&gt;
-&lt;h2&gt;核心功能&lt;/h2&gt;
-&lt;ul&gt;
+&lt;/ol&gt;&lt;p&gt;&lt;strong&gt;IngameIME&lt;/strong&gt; 就是为了解决这些问题而生的。它通过 Mixin 游戏渲染，将输入法的候选词列表直接&lt;strong&gt;渲染在游戏画面内部&lt;/strong&gt;，就像原生的 GUI 一样顺滑。 甚至支持 SmoothFont 这类修改文字渲染的Mod&lt;/p&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;Tip&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;本项目是基于旧版开源代码的维护与优化版本，专注于 &lt;strong&gt;1.12.2&lt;/strong&gt; 版本的稳定性和兼容性修复。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;核心功能&lt;a href=&quot;#核心功能&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;📺 游戏内渲染&lt;/strong&gt;：候选词窗口不再浮在游戏窗口之外，而是作为游戏 UI 的一部分显示。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;🚀 全屏兼容&lt;/strong&gt;：完美支持全屏模式，不再需要盲目选词。&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;⌨️ 多输入法支持&lt;/strong&gt;：兼容微软拼音、搜狗输入法等主流 IME。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2&gt;安装指南&lt;/h2&gt;
-&lt;h3&gt;前置要求&lt;/h3&gt;
-&lt;ul&gt;
+&lt;/ul&gt;&lt;/section&gt;
+&lt;section&gt;&lt;h2&gt;安装指南&lt;a href=&quot;#安装指南&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;section&gt;&lt;h3&gt;前置要求&lt;a href=&quot;#前置要求&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Minecraft 版本&lt;/strong&gt;：1.12.2 、1.7.10&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mod Loader&lt;/strong&gt;：Minecraft Forge / Cleanroom&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Mod&lt;/strong&gt;：MixinBooter（1.12.2）、UniMixin（1.7.10）&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;相关链接&lt;/h3&gt;
-&lt;ul&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h3&gt;相关链接&lt;a href=&quot;#相关链接&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://github.com/DHJComical/IngameIME-1.12.2&quot;&gt;GitHub&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.curseforge.com/minecraft/mc-mods/ingameime-vintage&quot;&gt;CurseForge&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://modrinth.com/mod/ingameime-vintage&quot;&gt;Modrinth&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;&lt;a href=&quot;https://www.mcmod.cn/class/20138.html&quot;&gt;MCMOD百科&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;:::important[注意事项]
-如果你安装了其他涉及输入法优化的模组（如 InputMethodBlocker 等），建议移除，以避免冲突。IngameIME 已经包含了必要的输入修复功能。
-:::&lt;/p&gt;
-</content:encoded><author>DHJComical</author></item></channel></rss>
+&lt;/ul&gt;&lt;div&gt;&lt;div&gt;&lt;div&gt;&lt;/div&gt;&lt;div&gt;注意事项&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;p&gt;如果你安装了其他涉及输入法优化的模组（如 InputMethodBlocker 等），建议移除，以避免冲突。IngameIME 已经包含了必要的输入修复功能。&lt;/p&gt;&lt;/div&gt;&lt;/div&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item></channel></rss>
