@@ -20,6 +20,25 @@ export const ja: Translation = {
 	[Key.recentPosts]: "最近の投稿",
 	[Key.postList]: "投稿リスト",
 	[Key.tableOfContents]: "目次",
+	[Key.music]: "音楽",
+	[Key.musicNoPlaying]: "再生中なし",
+	[Key.musicLyrics]: "歌詞",
+	[Key.musicVolume]: "音量",
+	[Key.musicPlayMode]: "再生モードを切り替え",
+	[Key.musicPrev]: "前の曲",
+	[Key.musicNext]: "次の曲",
+	[Key.musicPlaylist]: "プレイリスト",
+	[Key.musicNoLyrics]: "歌詞なし",
+	[Key.musicLoadingLyrics]: "歌詞を読み込み中...",
+	[Key.musicFailedLyrics]: "歌詞の読み込みに失敗しました",
+	[Key.musicNoSongs]: "曲なし",
+	[Key.musicError]: "プレーヤーエラー",
+	[Key.musicPlay]: "再生",
+	[Key.musicPause]: "一時停止",
+	[Key.musicProgress]: "再生の進捗",
+	[Key.musicCover]: "カバー",
+	[Key.musicNoCover]: "カバーなし",
+	[Key.musicAudioPlayer]: "オーディオプレーヤー",
 
 	// お知らせ
 	[Key.announcement]: "お知らせ",
@@ -184,6 +203,11 @@ export const ja: Translation = {
 	[Key.wallpaperOverlayMode]: "透明",
 	[Key.wallpaperNoneMode]: "単色背景",
 
+	// 投稿リストレイアウト
+	[Key.postListLayout]: "投稿リストレイアウト",
+	[Key.postListLayoutList]: "リスト",
+	[Key.postListLayoutGrid]: "グリッド",
+
 	// スポンサーページ
 	[Key.sponsor]: "スポンサー",
 	[Key.sponsorTitle]: "サポート",
@@ -245,4 +269,10 @@ export const ja: Translation = {
 	[Key.copyLink]: "リンクをコピー",
 	[Key.savePoster]: "ポスターを保存",
 	[Key.scanToRead]: "QRコードで読む",
+
+	// コードブロック折りたたみ設定
+	[Key.codeCollapsibleShowMore]: "もっと表示",
+	[Key.codeCollapsibleShowLess]: "少なく表示",
+	[Key.codeCollapsibleExpanded]: "コードブロックが展開されました",
+	[Key.codeCollapsibleCollapsed]: "コードブロックが折りたたまれました",
 };

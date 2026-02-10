@@ -1,14 +1,14 @@
 
-<img src="./images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
+<img src="./images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
 
 <div align="center">
 
 # Firefly
-> Свежая и красивая тема для блога на Astro
+> Свежий и красивый шаблон темы блога Astro
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.8-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.15-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)
 >
 > [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
@@ -25,13 +25,13 @@
 
 
 ---
+📖 README:
+**[简体中文](../README.zh.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)** 
+
 🚀 Быстрое руководство:
 [**🖥️Демо**](https://firefly.cuteleaf.cn/) /
 [**📝Документация**](https://docs-firefly.cuteleaf.cn/) /
 [**🍀Мой блог**](https://blog.cuteleaf.cn)
-
-📖 README:
-**[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)** 
 
 ⚡ Генерация статического сайта: Сверхбыстрая загрузка и SEO-оптимизация на основе Astro
 
@@ -44,13 +44,13 @@
 <img alt="firefly" src="./images/1.webp" />
 
 >[!TIP]
->В важных макетах Firefly инновационно добавляет двойные боковые панели, сеточный макет статей (многоколонный), макет Masonry,
+>Firefly — это свежая и красивая тема для персонального блога на основе фреймворка Astro и шаблона Fuwari, разработанная для энтузиастов технологий и создателей контента. Эта тема интегрирует современные веб-технологические стеки, предоставляет богатые функциональные модули и высококастомизируемые интерфейсы, позволяя легко создать профессиональный и красивый веб-сайт персонального блога.
 >
->Включает статистику сайта, календарный компонент, оглавление статей и другие виджеты для обогащения боковой панели,
->
->При этом сохраняется система макетов fuwari, свободно переключаемая в конфигурационном файле.
+>В важных макетах Firefly инновационно добавляет двойные боковые панели, сеточный макет статей (многоколонный), макет Masonry, включает статистику сайта, календарный компонент, оглавление статей и другие виджеты для обогащения боковой панели, при этом сохраняется система макетов fuwari, свободно переключаемая в конфигурационном файле.
 >
 >**Подробнее о настройках макета и демонстрациях см.: [Детали системы макетов Firefly](https://firefly.cuteleaf.cn/posts/firefly-layout-system/)**
+>
+>Firefly поддерживает переключение языков i18n, но кроме упрощенного китайского, другие языки переведены с помощью ИИ. Если есть ошибки, пожалуйста, отправьте [Pull Request](https://github.com/CuteLeaf/Firefly/pulls) для исправления.
 
 ## ✨ Возможности
 
@@ -63,7 +63,7 @@
 - [x] **Полнотекстовый поиск** - Клиентский поиск на основе Pagefind, поддержка индексации содержимого статей. 
 
 ### Персонализация
-- [x] **Боковая панель** - Поддержка одиночной и двойной боковой панели
+- [x] **Динамическая боковая панель** - Поддержка одиночной и двойной боковой панели
 - [x] **Макет статей** - Поддержка списка (один столбец) и сетки (многоколонный/Masonry)
 - [x] **Управление шрифтами** - Поддержка пользовательских шрифтов с богатым выбором шрифтов
 - [x] **Настройка подвала** - Внедрение HTML-контента, полная настраиваемость
@@ -86,7 +86,7 @@
 - [x] **Bangumi** - Отображение отслеживания аниме и игр на основе Bangumi API
 - [x] **Система комментариев** - Интеграция систем комментариев Twikoo, Waline, Giscus, Disqus, Artalk
 - [x] **Счетчик посещений** - Поддержка вызова встроенного отслеживания посещений Waline, Twikoo
-- [x] **Музыкальный плеер** - На основе APlayer, поддержка локальной музыки и онлайн-музыки через Meting API
+- [x] **Музыкальный плеер** - Музыкальный плеер в стиле Material Design 3
 
 ### Улучшение контента
 - [x] **Лайтбокс изображений** - Функция предварительного просмотра изображений Fancybox
@@ -102,12 +102,7 @@
 - [x] **SEO-оптимизация** - Полные мета-теги и структурированные данные
 - [x] **RSS-лента** - Автоматическая генерация RSS-ленты
 - [x] **Карта сайта** - Автоматическая генерация XML-карты сайта с настройкой фильтрации страниц
-
-## 📝 Планы...
-
-- [ ] **Рефакторинг маскота Live2D**
-- [ ] **Непрерывная оптимизация плавности анимации**
-- [ ] Больше функций в разработке...
+- [x] **Аналитика** - Интеграция Google Analytics, Microsoft Clarity
 
 Если у вас есть полезные функции и оптимизации, пожалуйста, отправьте [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)
 
@@ -256,10 +251,9 @@ comment: true    # Включить комментарии
 ## 🙏 Благодарности
 
 - Особенная благодарность [saicaca](https://github.com/saicaca) за разработку шаблона [fuwari](https://github.com/saicaca/fuwari), на котором основан Firefly
-- Использованы решения [Bangumi Collection Display](https://kasuha.com/posts/fuwari-enhance-ep2/) и [Email Protection/Image Title](https://kasuha.com/posts/fuwari-enhance-ep1/), которыми поделился блогер [Kasuha](https://kasuha.com)
+- Использованы решения [Bangumi Collection Display](https://kasuha.com/posts/fuwari-enhance-ep2/) и [Email Protection/Image Title](https://kasuha.com/posts/fuwari-enhance-ep1/), которыми поделился блогер [霞葉](https://kasuha.com)
 - За основу взяты решения [Mizuki](https://github.com/matsuzaka-yuki/Mizuki) для заголовка баннера, многоуровневой панели навигации меню, эффекта сакуры, KaTeX и Fancybox
 - Построено с использованием [Astro](https://astro.build) и [Tailwind CSS](https://tailwindcss.com)
-- Использует музыкальный плеер [MetingJS](https://github.com/metowolf/MetingJS) и [APlayer](https://github.com/MoePlayer/APlayer)
 - Использует модель маскота в стиле Чиби `Firefly` spine, предоставленную создателем Bilibili [公公的日常](https://space.bilibili.com/3546750017080050)
 - Иконки от [Iconify](https://iconify.design/)
 - Авторские права на изображения Firefly принадлежат компании [miHoYo](https://www.mihoyo.com/), разработчику игры ["Honkai: Star Rail"](https://sr.mihoyo.com/).
@@ -267,7 +261,9 @@ comment: true    # Включить комментарии
 ## 📝 Лицензия
 
 Этот проект распространяется под лицензией [MIT license](https://mit-license.org/), подробности см. в файле [LICENSE](../LICENSE).
+
 Первоначально ветвлено из [saicaca/fuwari](https://github.com/saicaca/fuwari). Благодарим автора оригинального проекта за вклад. Оригинальный проект лицензирован по [MIT License](https://mit-license.org/)
+
 **Уведомление об авторских правах:**
 - Copyright (c) 2024 [saicaca](https://github.com/saicaca) - [fuwari](https://github.com/saicaca/fuwari)
 - Copyright (c) 2025 [CuteLeaf](https://github.com/CuteLeaf) - [Firefly](https://github.com/CuteLeaf/Firefly)

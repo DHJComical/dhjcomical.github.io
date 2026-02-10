@@ -1,14 +1,14 @@
 
-<img src="./images/1131.png" width = "405" height = "511" alt="Firefly" align=right />
+<img src="./images/1131.png" width = "350" height = "500" alt="Firefly" align=right />
 
 <div align="center">
 
 # Firefly
-> 一款清新美觀的 Astro 部落格主題模板
+> 一款清新美觀的 Astro 靜態博客主題模板
 > 
 > ![Node.js >= 22](https://img.shields.io/badge/node.js-%3E%3D22-brightgreen) 
 ![pnpm >= 9](https://img.shields.io/badge/pnpm-%3E%3D9-blue)
-![Astro](https://img.shields.io/badge/Astro-5.16.8-orange)
+![Astro](https://img.shields.io/badge/Astro-5.16.15-orange)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9.2-blue)
 >
 > [![Stars](https://img.shields.io/github/stars/CuteLeaf/Firefly?style=social)](https://github.com/CuteLeaf/Firefly/stargazers)
@@ -25,13 +25,13 @@
 
 
 ---
+📖 README：
+**[简体中文](../README.zh.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)**
+
 🚀 快速指南：
 [**🖥️線上預覽**](https://firefly.cuteleaf.cn/) /
 [**📝使用文檔**](https://docs-firefly.cuteleaf.cn/) /
 [**🍀我的部落格**](https://blog.cuteleaf.cn) 
-
-📖 README：
-**[简体中文](../README.md)** | **[繁體中文](README.zh-TW.md)** | **[English](../README.en.md)** | **[日本語](README.ja.md)** | **[Русский](README.ru.md)**
 
 ⚡ 靜態站點生成: 基於Astro的超快載入速度和SEO優化
 
@@ -44,13 +44,13 @@
 <img alt="firefly" src="./images/1.webp" />
 
 >[!TIP]
->在重要的版面配置上，Firefly創新性地增加了左右雙側邊欄、文章網格(多列)版面配置，
+>Firefly 是一款基於 Astro 框架和 Fuwari 模板開發的清新美觀且現代化個人部落格主題模板，專為技術愛好者和內容創作者設計。該主題融合了現代 Web 技術棧，提供了豐富的功能模組和高度可定制的界面，讓您能夠輕鬆打造出專業且美觀的個人部落格網站。
 >
->增加了站點統計、日曆元件、文章目錄等小元件，讓側邊欄更加豐富，
->
->同時也保留了 fuwari 的版面配置系統，可在配置檔案中自由切換。
+>在重要的版面配置上，Firefly 創新性地增加了左右雙側邊欄、文章網格(多列)版面配置、瀑布流配置，增加了站點統計、日曆元件、文章目錄等小元件，讓側邊欄更加豐富，同時也保留了原版 fuwari 的版面配置，可根據自己的喜好在配置檔案中自由切換。
 >
 >**更多版面配置及示範請查看：[Firefly 版面配置系統詳解](https://firefly.cuteleaf.cn/posts/firefly-layout-system/)**
+>
+>Firefly 支援 i18n 多語言切換，但除了簡體中文，其他語言均為 AI 翻譯轉換，如有錯誤，歡迎提交 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls) 修正。
 
 ## ✨ 功能特性
 
@@ -63,7 +63,7 @@
 - [x] **全文搜尋** - 基於 Pagefind 的客戶端搜尋，支援文章內容索引。
 
 ### 個性化
-- [x] **側邊欄** - 支援配置單側邊欄、雙側邊欄
+- [x] **動態側邊欄** - 支援配置單側邊欄、雙側邊欄
 - [x] **文章版面配置** - 支援配置(單列)列表、網格(多列/瀑布流)版面配置
 - [x] **字型管理** - 支援自訂字型，豐富的字型選擇器
 - [x] **頁尾配置** - HTML 內容注入，完全自訂
@@ -86,7 +86,7 @@
 - [x] **番組計畫** - 基於 Bangumi API 的追番和遊戲記錄展示
 - [x] **留言系統** - 整合 Twikoo、Waline、Giscus、Disqus、Artalk 留言系統
 - [x] **訪問量統計** - 支援呼叫 Waline、Twikoo 自帶的訪問量追蹤
-- [x] **音樂播放器** - 基於 APlayer，支援本地音樂和 Meting API 線上音樂
+- [x] **音樂播放器** - Material Design 3 設計風格的音樂播放器
 
 ### 內容增強
 - [x] **圖片燈箱** - Fancybox 圖片預覽功能
@@ -102,12 +102,7 @@
 - [x] **SEO 優化** - 完整的 meta 標籤和結構化資料
 - [x] **RSS 訂閱** - 自動生成 RSS Feed
 - [x] **站點地圖** - 自動生成 XML Sitemap，支援頁面篩選配置
-
-## 📝計畫中...
-
-- [ ] **重構 Live2D 看板娘**
-- [ ] **持續優化動畫流暢度**
-- [ ] 更多功能持續完善中...
+- [x] **統計分析** - 集成 Google Analytics、Microsoft Clarity
 
 如果你有好用的功能和優化，請提交 [Pull Request](https://github.com/CuteLeaf/Firefly/pulls)
 
@@ -253,10 +248,9 @@ comment: true    # 是否允許留言
 ## 🙏 致謝
 
 - 非常感謝 [saicaca](https://github.com/saicaca) 開發的 [fuwari](https://github.com/saicaca/fuwari) 範本，Firefly 就是基於這個範本二次開發
-- 參考了部落格主 [霞葉](https://kasuha.com) 分享的 [Bangumi 收藏展示頁面方案](https://kasuha.com/posts/fuwari-enhance-ep2/)
+- 參考了部落格主 [霞葉](https://kasuha.com) 分享的 [Bangumi 收藏展示](https://kasuha.com/posts/fuwari-enhance-ep2/) 和 [圖片標題](https://kasuha.com/posts/fuwari-enhance-ep1/) 方案
 - 參考了 [Mizuki](https://github.com/matsuzaka-yuki/Mizuki) 的橫幅標題/多級選單導覽列/櫻花特效/KaTeX/Fancybox方案
 - 使用了 [Astro](https://astro.build) 和 [Tailwind CSS](https://tailwindcss.com) 建置
-- 使用了 [MetingJS](https://github.com/metowolf/MetingJS) 和 [APlayer](https://github.com/MoePlayer/APlayer) 音樂播放器
 - 使用了b站up [公公的日常](https://space.bilibili.com/3546750017080050) 提供的Q版 `流螢` 看板娘切片資料模型
 - 圖示來自 [Iconify](https://iconify.design/)
 - 流螢部分相關圖片素材版權歸遊戲 [《崩壞：星穹鐵道》](https://sr.mihoyo.com/) 開發商 [米哈遊](https://www.mihoyo.com/) 所有
@@ -264,7 +258,9 @@ comment: true    # 是否允許留言
 ## 📝 許可協議
 
 本專案遵循 [MIT license](https://mit-license.org/) 開源協議，詳細查看 [LICENSE](../LICENSE) 文件
+
 最初 Fork 自 [saicaca/fuwari](https://github.com/saicaca/fuwari)，感謝原作者的貢獻，原專案採用 [MIT license](https://mit-license.org/)
+
 **版權聲明：**
 - Copyright (c) 2024 [saicaca](https://github.com/saicaca) - [fuwari](https://github.com/saicaca/fuwari)
 - Copyright (c) 2025 [CuteLeaf](https://github.com/CuteLeaf) - [Firefly](https://github.com/CuteLeaf/Firefly)
