@@ -16,6 +16,7 @@ enum I18nKey {
 	recentPosts = "recentPosts",
 	postList = "postList",
 	tableOfContents = "tableOfContents",
+	music = "music",
 
 	// 公告栏
 	announcement = "announcement",
@@ -37,6 +38,26 @@ enum I18nKey {
 	minutesCount = "minutesCount",
 	postCount = "postCount",
 	postsCount = "postsCount",
+
+	// Music Widget
+	musicNoPlaying = "musicNoPlaying",
+	musicLyrics = "musicLyrics",
+	musicVolume = "musicVolume",
+	musicPlayMode = "musicPlayMode",
+	musicPrev = "musicPrev",
+	musicNext = "musicNext",
+	musicPlaylist = "musicPlaylist",
+	musicNoLyrics = "musicNoLyrics",
+	musicLoadingLyrics = "musicLoadingLyrics",
+	musicFailedLyrics = "musicFailedLyrics",
+	musicNoSongs = "musicNoSongs",
+	musicError = "musicError",
+	musicPlay = "musicPlay",
+	musicPause = "musicPause",
+	musicProgress = "musicProgress",
+	musicCover = "musicCover",
+	musicNoCover = "musicNoCover",
+	musicAudioPlayer = "musicAudioPlayer",
 
 	themeColor = "themeColor",
 
@@ -173,6 +194,11 @@ enum I18nKey {
 	wallpaperOverlayMode = "wallpaperOverlayMode",
 	wallpaperNoneMode = "wallpaperNoneMode",
 
+	// 文章布局
+	postListLayout = "postListLayout",
+	postListLayoutList = "postListLayoutList",
+	postListLayoutGrid = "postListLayoutGrid",
+
 	// 赞助页面
 	sponsor = "sponsor",
 	sponsorTitle = "sponsorTitle",
@@ -231,6 +257,12 @@ enum I18nKey {
 	copyLink = "copyLink",
 	savePoster = "savePoster",
 	scanToRead = "scanToRead",
+
+	// 代码块折叠配置
+	codeCollapsibleShowMore = "codeCollapsibleShowMore",
+	codeCollapsibleShowLess = "codeCollapsibleShowLess",
+	codeCollapsibleExpanded = "codeCollapsibleExpanded",
+	codeCollapsibleCollapsed = "codeCollapsibleCollapsed",
 }
 
 export default I18nKey;
