@@ -2,6 +2,7 @@
 import type { MarkdownHeading } from "astro";
 import "@/styles/toc.css";
 import WidgetLayout from "@/components/common/WidgetLayout.astro";
+import { sidebarLayoutConfig } from "@/config";
 import I18nKey from "@/i18n/i18nKey";
 import { i18n } from "@/i18n/translation";
 
@@ -12,10 +13,18 @@ interface Props {
 }
 
 const { headings: _headings = [], class: className, style } = Astro.props;
+
+const sidebarTocComponent = [
+	...sidebarLayoutConfig.leftComponents,
+	...sidebarLayoutConfig.rightComponents,
+	...sidebarLayoutConfig.mobileBottomComponents,
+].find((c) => c.type === "sidebarToc");
+const showTitle = sidebarTocComponent?.showTitle !== false;
 ---
 
-<WidgetLayout 
-  name={i18n(I18nKey.tableOfContents)} 
+<WidgetLayout
+  name={i18n(I18nKey.tableOfContents)}
+  showTitle={showTitle}
   id="sidebar-toc"
   class={className}
   style={style}
@@ -37,7 +46,7 @@ const { headings: _headings = [], class: className, style } = Astro.props;
 </style>
 
 <script>
-  import { TOCManager } from "@/utils/tocUtils";
+  import { TOCManager } from "@/utils/toc-utils";
 
   if (typeof window.SidebarTOC === "undefined") {
     window.SidebarTOC = {
@@ -100,5 +109,10 @@ const { headings: _headings = [], class: className, style } = Astro.props;
       setTimeout(initSidebarTOC, 100);
     }
     window.tocInternalNavigation = false;
+  });
+
+  // 密码解密后重新初始化 TOC
+  document.addEventListener("password:decrypted", () => {
+    setTimeout(initSidebarTOC, 200);
   });
 </script>

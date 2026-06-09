@@ -38,4 +38,19 @@ export const LinkPresets: { [key in LinkPreset]: NavBarLink } = {
 		url: "/bangumi/",
 		icon: "material-symbols:movie",
 	},
+	[LinkPreset.Gallery]: {
+		name: i18n(I18nKey.gallery),
+		url: "/gallery/",
+		icon: "material-symbols:photo-library",
+	},
+	[LinkPreset.Tags]: {
+		name: i18n(I18nKey.tags),
+		url: "/tags/",
+		icon: "material-symbols:tag-rounded",
+	},
+	[LinkPreset.Categories]: {
+		name: i18n(I18nKey.categories),
+		url: "/categories/",
+		icon: "material-symbols:folder-open-rounded",
+	},
 };

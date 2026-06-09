@@ -14,6 +14,9 @@ export const sponsorConfig: SponsorConfig = {
 	// 是否显示赞助者列表
 	showSponsorsList: false,
 
+	// 是否显示评论区，需要先在commentConfig.ts启用评论系统
+	showComment: true,
+
 	// 是否在文章详情页底部显示赞助按钮
 	showButtonInPost: false,
 
@@ -48,7 +51,7 @@ export const sponsorConfig: SponsorConfig = {
 			name: "爱发电",
 			icon: "simple-icons:afdian",
 			qrCode: "",
-			link: "https://afdian.com/a/cuteleaf",
+			link: "https://ifdian.net/a/cuteleaf",
 			description: "通过 爱发电 进行赞助",
 			enabled: false,
 		},
@@ -67,14 +70,16 @@ export const sponsorConfig: SponsorConfig = {
 		// 示例：已实名赞助者
 		{
 			name: "夏叶",
+			avatar:
+				"https://weavatar.com/avatar/d252655d40d6874417a720bad0a6c5f77f8f6a1fd2f882f8f338402dc37e4190?s=640",
 			amount: "¥50",
 			date: "2025-10-01",
-			message: "感谢分享！",
 		},
 
 		// 示例：匿名赞助者
 		{
 			name: "匿名用户",
+			// avatar: "",
 			amount: "¥20",
 			date: "2025-10-01",
 		},

@@ -13,10 +13,60 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 	const links: (NavBarLink | LinkPreset)[] = [
 		// 主页
 		LinkPreset.Home,
-
-		// 归档
-		LinkPreset.Archive,
 	];
+
+	// 文章及其子菜单
+	links.push({
+		name: "文章",
+		url: "/post/",
+		icon: "material-symbols:article-rounded",
+		children: [
+			// 归档
+			LinkPreset.Archive,
+			// 分类
+			LinkPreset.Categories,
+			// 标签
+			LinkPreset.Tags,
+		],
+	});
+
+	// 根据配置决定是否添加友链，在siteConfig关闭pages.friends时导航栏不显示友链
+	if (siteConfig.pages.friends) {
+		links.push(LinkPreset.Friends);
+	}
+
+	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
+	if (siteConfig.pages.guestbook) {
+		links.push(LinkPreset.Guestbook);
+	}
+
+	// 我的及其子菜单
+	links.push({
+		name: "我的",
+		url: "/my/",
+		icon: "material-symbols:person",
+		children: [
+			// 根据配置决定是否添加相册，在siteConfig关闭pages.gallery时导航栏不显示相册
+			...(siteConfig.pages.gallery ? [LinkPreset.Gallery] : []),
+
+			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
+			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
+		],
+	});
+
+	// 关于及其子菜单
+	links.push({
+		name: "关于",
+		url: "/content/",
+		icon: "material-symbols:info",
+		children: [
+			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
+			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
+
+			// 关于页面
+			LinkPreset.About,
+		],
+	});
 
 	// 自定义导航栏链接,并且支持多级菜单
 	links.push({
@@ -33,36 +83,17 @@ const getDynamicNavBarConfig = (): NavBarConfig => {
 				icon: "fa7-brands:github",
 			},
 			{
-				name: "Bilibili",
-				url: "https://space.bilibili.com/38932988",
+				name: "Gitee",
+				url: "https://gitee.com/CuteLeaf/Firefly",
 				external: true,
-				icon: "fa7-brands:bilibili",
+				icon: "fa7-brands:gitee",
 			},
-		],
-	});
-
-	// 友链
-	links.push(LinkPreset.Friends);
-
-	// 根据配置决定是否添加留言板，在siteConfig关闭pages.guestbook时导航栏不显示留言板
-	if (siteConfig.pages.guestbook) {
-		links.push(LinkPreset.Guestbook);
-	}
-
-	// 关于及其子菜单
-	links.push({
-		name: "关于",
-		url: "/content/",
-		icon: "material-symbols:info",
-		children: [
-			// 根据配置决定是否添加赞助，在siteConfig关闭pages.sponsor时导航栏不显示赞助
-			...(siteConfig.pages.sponsor ? [LinkPreset.Sponsor] : []),
-
-			// 关于页面
-			LinkPreset.About,
-
-			// 根据配置决定是否添加番组计划，在siteConfig关闭pages.bangumi时导航栏不显示番组计划
-			...(siteConfig.pages.bangumi ? [LinkPreset.Bangumi] : []),
+			{
+				name: "QQ交流群",
+				url: "https://qm.qq.com/q/ZGsFa8qX2G",
+				external: true,
+				icon: "fa7-brands:qq",
+			},
 		],
 	});
 
