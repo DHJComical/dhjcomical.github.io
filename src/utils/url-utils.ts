@@ -9,7 +9,7 @@ export function removeFileExtension(id: string): string {
 	return id.replace(/\.(md|mdx|markdown)$/i, "");
 }
 
-export function pathsEqual(path1: string, path2: string) {
+export function pathsEqual(path1: string, path2: string): boolean {
 	const normalizedPath1 = path1.replace(/^\/|\/$/g, "").toLowerCase();
 	const normalizedPath2 = path2.replace(/^\/|\/$/g, "").toLowerCase();
 	return normalizedPath1 === normalizedPath2;
@@ -70,6 +70,17 @@ export function getFileDirFromPath(filePath: string): string {
 
 export function getSearchUrl(query: string): string {
 	return url(`/search/?q=${encodeURIComponent(query.trim())}`);
+}
+
+// 生成 canonical URL：仅对客户端筛选路由（/archive/ 与 /search/）剥离查询串，
+// 避免 ?tag=/?category=/?q= 这类服务端渲染下会被写进 Astro.url 的重复内容 URL
+// 自我 canonical。分页（/2/）、文章页等无查询串的路径保持原样。
+export function getCanonicalUrl(urlObj: URL): string {
+	const pathname = urlObj.pathname;
+	if (pathname === "/archive/" || pathname === "/search/") {
+		return new URL(pathname, urlObj.origin).toString();
+	}
+	return urlObj.toString();
 }
 
 export function url(path: string): string {
