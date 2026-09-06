@@ -266,24 +266,24 @@ export const siteConfig: SiteConfig = {
 
 	// ── 番组计划bangumi配置 ──────────────────────────────────
 	bangumi: {
-		// Bangumi用户ID
-		userId: "1143164",
+		// Bangumi用户ID（bangumi.tv 主页链接里的自定义名或数字）
+		userId: "dhjcomical",
 		// 数据模式：static=构建时获取，dynamic=客户端实时获取
 		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
 		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
 		mode: "dynamic",
-		// Bangumi API 地址
-		apiUrl: "https://api.bangumi.pro",
+		// Bangumi API 地址（官方 API，支持跨域）
+		apiUrl: "https://api.bgm.tv",
 		// 详情页地址
-		subjectBaseUrl: "https://api.bangumi.pro/subject/",
+		subjectBaseUrl: "https://bgm.tv/subject/",
 		// 条目类型排序，数组中的类型将按顺序优先展示
 		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
 		// 未列出的类型将按默认顺序排在后面
-		categoryOrder: ["anime", "book", "music", "game"],
+		categoryOrder: ["anime", "book", "game"],
 		// 控制各分类的启用状态（true/false），未指定的分类默认启用
-		// categories: {
-		// 	game: false, // 禁用游戏分类显示
-		// },
+		categories: {
+			music: false, // 音乐收藏为空，隐藏该分类
+		},
 		// NSFW 处理："off" 不过滤 | "blur" 仅模糊封面 | "hide" 隐藏条目
 		nsfw: "hide",
 	},
