@@ -1,8 +1,14 @@
 {
-	"cuteleaf/firefly": {
-		"description": "🍀Firefly, fresh and aesthetic Astro blog theme template. ",
-		"language": "Astro",
-		"avatarUrl": "https://avatars.githubusercontent.com/u/43440669?v=4",
+	"dhjcomical/ingameime-1.12.2": {
+		"description": "Use InputMethod in Fullscreen Minecraft 1.12.2",
+		"language": "Java",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/98379882?v=4",
+		"license": "LGPL-2.1"
+	},
+	"dhjcomical/um-react-mirror": {
+		"description": "Unlock Music in React (um-react)",
+		"language": "TypeScript",
+		"avatarUrl": "https://avatars.githubusercontent.com/u/98379882?v=4",
 		"license": "MIT"
 	}
 }
