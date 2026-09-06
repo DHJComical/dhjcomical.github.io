@@ -26,7 +26,7 @@ const pages = resolvePageToggles({
 	// 哔哩哔哩追番页面开关
 	bilibili: false,
 	// 番组计划页面开关
-	bangumi: false,
+	bangumi: true,
 	// VNDB页面开关
 	vndb: false,
 	// MyAnimeList页面开关
@@ -35,7 +35,7 @@ const pages = resolvePageToggles({
 	// ── 关于 (About) ──────────────────────────────────
 
 	// 打赏页面开关
-	sponsor: true,
+	sponsor: false,
 });
 
 export const siteConfig: SiteConfig = {
@@ -134,57 +134,6 @@ export const siteConfig: SiteConfig = {
 	// 站点时区（IANA 时区字符串），用于格式化bangumi、rss里的构建日期时间等等..
 	// 示例："Asia/Shanghai", "UTC", 如果为空，则按照构建服务器的时区进行时区转换
 	timezone: "Asia/Shanghai",
-
-	// 提醒框（Admonitions）配置，修改后需要重启开发服务器才能生效
-	// 主题：'github' | 'obsidian' | 'vitepress'，每个主题风格和语法不同，可根据喜好选择
-	rehypeCallouts: {
-		theme: "github",
-	},
-
-	// 文章页底部的"上次编辑时间"卡片开关
-	showLastModified: true,
-
-	// 文章过期阈值（天数），超过此天数才显示"上次编辑"卡片
-	outdatedThreshold: 30,
-
-	// 是否开启分享海报生成功能
-	sharePoster: true,
-
-	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
-	generateOgImages: false,
-
-	// bangumi配置
-	bangumi: {
-		// Bangumi用户ID
-		userId: "1143164",
-		// 数据模式：static=构建时获取，dynamic=客户端实时获取
-		// static 模式在构建时获取数据并静态渲染，部署后数据不更新
-		// dynamic 模式在浏览器中实时请求 API，始终显示最新数据
-		mode: "dynamic",
-		// Bangumi API 地址
-		apiUrl: "https://api.bangumi.one",
-		// 详情页地址
-		subjectBaseUrl: "https://bangumi.one/subject/",
-		// 条目类型排序，数组中的类型将按顺序优先展示
-		// 可选值: "anime" | "book" | "music" | "game" | "real" (暂不支持"real"类型)
-		// 未列出的类型将按默认顺序排在后面
-		categoryOrder: ["anime", "book", "music", "game"],
-	},
-
-	// 页面开关配置 - 控制特定页面的访问权限，设为false会返回404并自动隐藏对应的导航栏菜单项
-	// bangumi的数据为编译时获取的，所以不是实时数据，请配置bangumi.userId
-	pages: {
-		// 友链页面开关
-		friends: true,
-		// 赞助页面开关
-		sponsor: false,
-		// 留言板页面开关，需要配置评论系统
-		guestbook: true,
-		// 番组计划页面开关，含追番、游戏、书籍和音乐
-		bangumi: true,
-		// 相册页面开关
-		gallery: true,
-	},
 
 	// 分类导航栏开关，在首页和归档页顶部显示分类快捷导航
 	categoryBar: true,
