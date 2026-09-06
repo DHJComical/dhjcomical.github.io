@@ -131,19 +131,26 @@ const managerConfigStr = JSON.stringify({
     }
 
     // ── Meting fetch ─────────────────────────────────────────
-    async function fetchMetingData() {
-        if (!config.meting) return;
-        var m = config.meting;
-        var apis = [m.api].concat(m.fallbackApis || []);
+    function mapMetingItem(item) {
+        return {
+            name: item.title || item.name || 'Unknown',
+            artist: item.author || item.artist || 'Unknown',
+            url: item.url,
+            pic: item.pic || item.cover || '',
+            lrc: item.lrc
+        };
+    }
 
+    // 单个源依次尝试 API 列表（主 API + 备用），返回曲目数组或抛错
+    async function fetchMetingSource(m, apis, source) {
         for (var i = 0; i < apis.length; i++) {
             var baseApi = apis[i];
             if (!baseApi) continue;
             try {
                 var fetchUrl = baseApi
-                    .replace(':server', m.server)
-                    .replace(':type', m.type)
-                    .replace(':id', m.id)
+                    .replace(':server', source.server || 'netease')
+                    .replace(':type', source.type || 'playlist')
+                    .replace(':id', source.id)
                     .replace(':r', Math.random());
                 if (m.auth) fetchUrl += '&auth=' + m.auth;
 
@@ -152,22 +159,37 @@ const managerConfigStr = JSON.stringify({
                 var data = await res.json();
 
                 if (Array.isArray(data) && data.length > 0) {
-                    state.playlist = data.map(function (item) {
-                        return {
-                            name: item.title || item.name || 'Unknown',
-                            artist: item.author || item.artist || 'Unknown',
-                            url: item.url,
-                            pic: item.pic || item.cover || '',
-                            lrc: item.lrc
-                        };
-                    });
-                    return;
+                    return data.map(mapMetingItem);
                 }
             } catch (e) {
                 console.warn('Meting API failed for ' + baseApi, e);
             }
         }
-        throw new Error('All Meting APIs failed');
+        throw new Error('All Meting APIs failed for ' + (source.server || '') + '/' + (source.type || '') + ' ' + source.id);
+    }
+
+    async function fetchMetingData() {
+        if (!config.meting) return;
+        var m = config.meting;
+        var apis = [m.api].concat(m.fallbackApis || []);
+
+        // 多源混搭：sources 里每个源（可不同平台/歌单）并行拉取后合并；
+        // 未配置 sources 时退回 server/type/id 单源写法
+        var sources = (m.sources && m.sources.length > 0)
+            ? m.sources
+            : [{ server: m.server, type: m.type, id: m.id }];
+
+        var results = await Promise.all(sources.map(function (source) {
+            return fetchMetingSource(m, apis, source).catch(function (e) {
+                console.warn('Meting source skipped: ' + source.server + '/' + source.type + ' ' + source.id, e);
+                return [];
+            });
+        }));
+
+        state.playlist = results.reduce(function (acc, cur) { return acc.concat(cur); }, []);
+        if (state.playlist.length === 0) {
+            throw new Error('All Meting APIs failed');
+        }
     }
 
     // ── Lyrics ───────────────────────────────────────────────

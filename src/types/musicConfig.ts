@@ -37,6 +37,18 @@ export type MusicPlayerConfig = {
 
 		// 备用 API 配置（当主 API 失败时使用）
 		fallbackApis?: string[];
+
+		// 多源歌单：每个 source 可指定不同的平台/类型/ID，结果合并进同一播放列表。
+		// 配置了 sources 时，上面的 server/type/id 单源写法会被忽略；
+		// 单个 source 拉取失败不影响其他 source，只会在控制台告警。
+		sources?: Array<{
+			// 音乐平台，同上
+			server: "netease" | "tencent" | "kugou" | "xiami" | "baidu";
+			// 类型，同上
+			type: "song" | "playlist" | "album" | "search" | "artist";
+			// 歌单/专辑/单曲 ID 或搜索关键词
+			id: string;
+		}>;
 	};
 
 	// 本地音乐配置（当 mode 为 'local' 时使用）
