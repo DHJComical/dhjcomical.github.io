@@ -6,7 +6,8 @@ export const profileConfig: ProfileConfig = {
 	// 1. public 目录（以 "/" 开头，不优化）："/assets/images/avatar.webp"
 	// 2. src 目录（不以 "/" 开头，自动优化但会增加构建时间，推荐）："assets/images/avatar.webp"
 	// 3. 远程 URL："https://example.com/avatar.jpg"
-	avatar: "assets/images/avatar.avif",
+	avatar:
+		"https://gravatar.com/avatar/c3d3dd0e5db0f4d9bdb3550a351b05513f7266b1bf179ab0bc0a2260e821fcb1?s=512&d=mp",
 
 	// 名字
 	name: "DHJComical",
